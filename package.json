@@ -1,0 +1,30 @@
+{
+  "name": "get-module-file",
+  "version": "0.1.0",
+  "description": "A utility to load a file (e.g. a CSS file) from an installed module",
+  "main": "gmf.js",
+  "scripts": {
+    "test": "mocha --ui qunit test"
+  },
+  "keywords": [
+    "require",
+    "resolve",
+    "assets"
+  ],
+  "homepage": "https://github.com/jsumners/get-module-file",
+  "bugs": "https://github.com/jsumners/get-module-file/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsumners/get-module-file.git"
+  },
+  "author": "James Sumners",
+  "license": "MIT",
+  "dependencies": {
+    "canonical-path": "0.0.2",
+    "debug": "^2.2.0"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  }
+}
